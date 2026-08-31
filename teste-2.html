@@ -3,10 +3,39 @@
 <head>
       <meta charset="UTF-8"
       <meta name="viewport" content="with=device-width, initial-scale=1.0">
-      <title>Documento</title>
+      <title>Inserindo mídias no HTML5</title>
     </head>
     <body>
-        <h1>Outro teste de comit</h1>
-    <p> Primeiro comit para github </p>
-    </body>
-    </html>
+    <h1>Incorporando mídias no site</h1>
+
+    <h2>Imagens</h2>
+    <img src="midias/imagem.jpg" alt="Foto da paisagem" width="300px" height="300">
+
+    <h2>Imagens com Legenda</h2>
+    <figure>
+        <img src="midias/grafico.png" alt="Gráfico de crescimento anual da empresa" width="300">
+        <figcaption>Gráfico de crescimento anual da empresa em 2025.</figcaption>
+    </figure>
+
+    <h2>Áudio</h2>
+    <audio controls width="400px"></audio>>
+        <source src="midias/audio.mp3" type="audio/mpeg">
+        Seu navegador não suporta este elemento de áudio.
+    </audio>
+
+    <h2>Vídeo incorporado do youtube:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5KlReQtgPVA?si=4Ro_s4-YwJlc1e3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Mapas:</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.863630642496!2d-48.118652323732434!3d-24.52480069769487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c4d7001e9c9dcf%3A0xe588904493124af1!2sCongrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20%7C%20Vila%20Nova%20Esperan%C3%A7a%20-%20Eldorado!5e0!3m2!1spt-BR!2sbr!4v1788217309677!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    
+   </h2>Incorporando PDFs:</h2>
+   <iframe
+   src=".\midias\documento.pdf"
+   title="horários do DSM-1"
+   width="600px"
+   height="450px"
+   >
+  </iframe>"
+</body>
+</html>
