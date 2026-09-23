@@ -1,0 +1,31 @@
+/* Comentário teste CSS */
+body {
+    background-color: #30302e;
+    color: white;
+    font-family: "Segoe UI";
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: rgb(0, 102, 255);
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 3px solid rgb(0, 195, 255);
+    /* espaçamento inferior */
+    padding-bottom: 15px;
+}
+
+div.container {
+    background-color: rgb(29, 29, 29);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+
+}
+/* div com ID*/
+div#exemplo{
+    border: 2px solid cyan;
+    padding: 15px;
+    margin-top: 
+}
