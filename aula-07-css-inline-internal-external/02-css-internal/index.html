@@ -3,22 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Internal</title>
 
     <!-- aqui vai o CSS Internal -->
 
-     <style>
-        p{
+    <style>
+        p {
             color: #f87575;
             font-size: 18px;
         }
+
         .destaque {
-        background-color: blue;
-        color: white;
-        padding: 10px;
-        border-left: 4px solid orange;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border-left: 4px solid orange;
         }
+
         #principal {
             border: 2px solid orange;
             padding: 20px;
@@ -26,18 +28,23 @@
         }
     </style>
 </head>
+
 <body>
-     <h1>Demonstração de CSS internal</h1>
-     <p>Este parágrafo é estilizado
-         <br> através do CSS internal, definido no head.                
-     </p>
-     <p class=" destaque">
-    Esse parágrafo possui uma classe (.) "destaque" e recebe estilos específicos.
+    <h1>Demonstração de CSS internal</h1>
+
+    <p>
+        Este parágrafo é estilizado
+        <br> através do CSS internal, definido no head.
     </p>
+
+    <p class="destaque">
+        Esse parágrafo possui uma classe (.) "destaque" e recebe estilos específicos.
+    </p>
+
     <section id="principal">
         <h2 style="color: blue;">Seção Principal</h2>
         <p style="color: blue;">Essa seção possui o ID (#) "principal" é estilizado de forma única.</p>
     </section>
-    </body>
+</body>
 
 </html>
