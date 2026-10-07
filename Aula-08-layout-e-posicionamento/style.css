@@ -1,0 +1,14 @@
+div.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 24, 24);
+    padding: 20px;
+}
+
+div.card {
+    background-color: cyan;
+    color: black;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+}
